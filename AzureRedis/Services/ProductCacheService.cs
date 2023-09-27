@@ -22,7 +22,7 @@ namespace AzureRedis.Services
                 var res = await productService.GetProductById(id);
                 if (!string.IsNullOrEmpty(res))
                 {
-                    memoryCache.SetString(key, res);
+                    memoryCache.SetString(key, res, options: new DistributedCacheEntryOptions().SetAbsoluteExpiration(TimeSpan.FromMinutes(5)));
                     return res;
                 }
 

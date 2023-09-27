@@ -13,7 +13,6 @@ namespace AzureRedis
             builder.Services.AddControllers();
             builder.Services.AddStackExchangeRedisCache(option =>
             {
-                
                 option.Configuration = builder.Configuration.GetConnectionString("AzureRedisCache");
                 option.InstanceName = "master";
             });
