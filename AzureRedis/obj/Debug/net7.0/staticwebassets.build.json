@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JtsvnZNBVg5MJDzjxwxIx/N86PFhcaZH+W+rAWO9pz0=",
+  "Source": "AzureRedis",
+  "BasePath": "_content/AzureRedis",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
